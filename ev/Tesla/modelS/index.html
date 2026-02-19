@@ -330,6 +330,37 @@
       transform: translateY(-2px);
       box-shadow: 0 8px 30px rgba(227,25,55,0.35);
     }
+    .cta-buttons {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+    .btn-cta-referral {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: #22c55e;
+      color: #fff;
+      padding: 16px 40px;
+      border-radius: 10px;
+      font-weight: 700;
+      font-size: 1.1rem;
+      transition: background 0.2s, transform 0.2s, box-shadow 0.2s;
+    }
+    .btn-cta-referral:hover {
+      background: #16a34a;
+      color: #fff;
+      transform: translateY(-2px);
+      box-shadow: 0 8px 30px rgba(34,197,94,0.35);
+    }
+    .cta-hint {
+      margin-top: 16px;
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      opacity: 0.7;
+    }
 
     /* --- FOOTER --- */
     footer {
@@ -550,20 +581,15 @@
     <div class="container">
       <h2>Prêt à prendre le volant ?</h2>
       <p>Réservez dès maintenant votre Tesla Model S P100D sur la plateforme 2EM.</p>
-      <a href="https://www.2em.ch/location-voiture/denges/tesla-model-s-p100d-11109" class="btn-cta-big" target="_blank" rel="noopener">
-        Réserver sur 2EM →
-      </a>
-    </div>
-  </section>
-
-  <!-- Referral Banner -->
-  <section class="container" style="margin-bottom: 0; padding-bottom: 48px;">
-    <div style="background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius); padding: 32px; text-align: center;">
-      <p style="font-size: 1.3rem; font-weight: 700; color: var(--white); margin-bottom: 8px;">🎁 CHF 25.– offerts sur ta première location</p>
-      <p style="color: var(--text-muted); margin-bottom: 20px;">Inscris-toi sur 2EM via ce lien et reçois immédiatement un crédit de CHF 25.– à utiliser sur ta première réservation.</p>
-      <a href="https://www.2em.ch/c/pierre-yves-11721" target="_blank" rel="noopener" style="display: inline-flex; align-items: center; gap: 8px; background: #22c55e; color: #fff; padding: 14px 32px; border-radius: 8px; font-weight: 700; font-size: 1rem; transition: background 0.2s, transform 0.2s;">
-        Obtenir mes CHF 25.– →
-      </a>
+      <div class="cta-buttons">
+        <a href="https://www.2em.ch/location-voiture/denges/tesla-model-s-p100d-11109" class="btn-cta-big" target="_blank" rel="noopener">
+          Réserver sur 2EM →
+        </a>
+        <a href="https://www.2em.ch/c/pierre-yves-11721" class="btn-cta-referral" target="_blank" rel="noopener">
+          🎁 CHF 25.– offerts à l'inscription
+        </a>
+      </div>
+      <p class="cta-hint">Pas encore inscrit ? Obtiens CHF 25.– de crédit en t'inscrivant via le lien ci-dessus.</p>
     </div>
   </section>
 
