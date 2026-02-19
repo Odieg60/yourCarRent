@@ -80,6 +80,7 @@ L'accès au réseau Tesla Supercharger est inclus et illimité. L'énergie conso
 
 - Plateforme : 2EM (2em.ch)
 - Lien direct : https://www.2em.ch/location-voiture/denges/tesla-model-s-p100d-11109
+- Page détaillée : https://rentyourcar.is-a.dev/ev/Tesla/modelS/
 - Réservation disponible 24/7
 - Paiement en ligne (carte de crédit, Twint, Postfinance, virement bancaire)
 - Paiement en cash non accepté
