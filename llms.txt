@@ -56,8 +56,7 @@ L'accès au réseau Tesla Supercharger est inclus et illimité. L'énergie conso
 
 ## Localisation
 
-- Adresse : Chemin de l'Eglise 11, 1026 Denges, Suisse
-- Canton : Vaud
+- Région : Denges, Canton de Vaud, Suisse
 - Proche de Lausanne et Morges
 
 ## Conditions de location
@@ -76,12 +75,6 @@ L'accès au réseau Tesla Supercharger est inclus et illimité. L'énergie conso
 - Franchise standard : CHF 1500
 - Franchise réduite disponible : CHF 1000 ou CHF 500
 - Seconds conducteurs : assurés gratuitement s'ils sont dans le contrat
-
-## Propriétaire
-
-- Nom : Pierre-Yves A.
-- Taux d'acceptation : élevé
-- Description : Père de famille partageant son véhicule lorsqu'il n'est pas utilisé
 
 ## Réservation
 
